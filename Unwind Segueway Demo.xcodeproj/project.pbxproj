@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA69A93816FE2FC50069ED97 /* Page1VC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA69A93716FE2FC50069ED97 /* Page1VC.m */; };
+		BA69A93B16FE2FD20069ED97 /* Page2VC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA69A93A16FE2FD20069ED97 /* Page2VC.m */; };
+		BA69A93E16FE2FDE0069ED97 /* Page3VC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA69A93D16FE2FDE0069ED97 /* Page3VC.m */; };
 		BAA2A5DC16FE2E1C008CD090 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA2A5DB16FE2E1C008CD090 /* UIKit.framework */; };
 		BAA2A5DE16FE2E1C008CD090 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA2A5DD16FE2E1C008CD090 /* Foundation.framework */; };
 		BAA2A5E016FE2E1C008CD090 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA2A5DF16FE2E1C008CD090 /* CoreGraphics.framework */; };
@@ -17,12 +20,9 @@
 		BAA2A5F016FE2E1C008CD090 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA2A5EF16FE2E1C008CD090 /* Default@2x.png */; };
 		BAA2A5F216FE2E1C008CD090 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA2A5F116FE2E1C008CD090 /* Default-568h@2x.png */; };
 		BAA2A5F516FE2E1C008CD090 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAA2A5F316FE2E1C008CD090 /* MainStoryboard.storyboard */; };
-		BAA2A5F816FE2E1C008CD090 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA2A5F716FE2E1C008CD090 /* ViewController.m */; };
 		BAA2A60016FE2E1C008CD090 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA2A5FF16FE2E1C008CD090 /* SenTestingKit.framework */; };
 		BAA2A60116FE2E1C008CD090 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA2A5DB16FE2E1C008CD090 /* UIKit.framework */; };
 		BAA2A60216FE2E1C008CD090 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA2A5DD16FE2E1C008CD090 /* Foundation.framework */; };
-		BAA2A60A16FE2E1C008CD090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BAA2A60816FE2E1C008CD090 /* InfoPlist.strings */; };
-		BAA2A60D16FE2E1C008CD090 /* Unwind_Segueway_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA2A60C16FE2E1C008CD090 /* Unwind_Segueway_DemoTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +36,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA69A93616FE2FC50069ED97 /* Page1VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page1VC.h; sourceTree = "<group>"; };
+		BA69A93716FE2FC50069ED97 /* Page1VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page1VC.m; sourceTree = "<group>"; };
+		BA69A93916FE2FD20069ED97 /* Page2VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page2VC.h; sourceTree = "<group>"; };
+		BA69A93A16FE2FD20069ED97 /* Page2VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page2VC.m; sourceTree = "<group>"; };
+		BA69A93C16FE2FDE0069ED97 /* Page3VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page3VC.h; sourceTree = "<group>"; };
+		BA69A93D16FE2FDE0069ED97 /* Page3VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page3VC.m; sourceTree = "<group>"; };
 		BAA2A5D816FE2E1C008CD090 /* Unwind Segueway Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unwind Segueway Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAA2A5DB16FE2E1C008CD090 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BAA2A5DD16FE2E1C008CD090 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -50,14 +56,8 @@
 		BAA2A5EF16FE2E1C008CD090 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		BAA2A5F116FE2E1C008CD090 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		BAA2A5F416FE2E1C008CD090 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		BAA2A5F616FE2E1C008CD090 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BAA2A5F716FE2E1C008CD090 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BAA2A5FE16FE2E1C008CD090 /* Unwind Segueway DemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unwind Segueway DemoTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAA2A5FF16FE2E1C008CD090 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		BAA2A60716FE2E1C008CD090 /* Unwind Segueway DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Unwind Segueway DemoTests-Info.plist"; sourceTree = "<group>"; };
-		BAA2A60916FE2E1C008CD090 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		BAA2A60B16FE2E1C008CD090 /* Unwind_Segueway_DemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Unwind_Segueway_DemoTests.h; sourceTree = "<group>"; };
-		BAA2A60C16FE2E1C008CD090 /* Unwind_Segueway_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Unwind_Segueway_DemoTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +88,6 @@
 			isa = PBXGroup;
 			children = (
 				BAA2A5E116FE2E1C008CD090 /* Unwind Segueway Demo */,
-				BAA2A60516FE2E1C008CD090 /* Unwind Segueway DemoTests */,
 				BAA2A5DA16FE2E1C008CD090 /* Frameworks */,
 				BAA2A5D916FE2E1C008CD090 /* Products */,
 			);
@@ -117,11 +116,13 @@
 		BAA2A5E116FE2E1C008CD090 /* Unwind Segueway Demo */ = {
 			isa = PBXGroup;
 			children = (
-				BAA2A5EA16FE2E1C008CD090 /* AppDelegate.h */,
-				BAA2A5EB16FE2E1C008CD090 /* AppDelegate.m */,
 				BAA2A5F316FE2E1C008CD090 /* MainStoryboard.storyboard */,
-				BAA2A5F616FE2E1C008CD090 /* ViewController.h */,
-				BAA2A5F716FE2E1C008CD090 /* ViewController.m */,
+				BA69A93616FE2FC50069ED97 /* Page1VC.h */,
+				BA69A93716FE2FC50069ED97 /* Page1VC.m */,
+				BA69A93916FE2FD20069ED97 /* Page2VC.h */,
+				BA69A93A16FE2FD20069ED97 /* Page2VC.m */,
+				BA69A93C16FE2FDE0069ED97 /* Page3VC.h */,
+				BA69A93D16FE2FDE0069ED97 /* Page3VC.m */,
 				BAA2A5E216FE2E1C008CD090 /* Supporting Files */,
 			);
 			path = "Unwind Segueway Demo";
@@ -130,6 +131,8 @@
 		BAA2A5E216FE2E1C008CD090 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BAA2A5EA16FE2E1C008CD090 /* AppDelegate.h */,
+				BAA2A5EB16FE2E1C008CD090 /* AppDelegate.m */,
 				BAA2A5E316FE2E1C008CD090 /* Unwind Segueway Demo-Info.plist */,
 				BAA2A5E416FE2E1C008CD090 /* InfoPlist.strings */,
 				BAA2A5E716FE2E1C008CD090 /* main.m */,
@@ -137,25 +140,6 @@
 				BAA2A5ED16FE2E1C008CD090 /* Default.png */,
 				BAA2A5EF16FE2E1C008CD090 /* Default@2x.png */,
 				BAA2A5F116FE2E1C008CD090 /* Default-568h@2x.png */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		BAA2A60516FE2E1C008CD090 /* Unwind Segueway DemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				BAA2A60B16FE2E1C008CD090 /* Unwind_Segueway_DemoTests.h */,
-				BAA2A60C16FE2E1C008CD090 /* Unwind_Segueway_DemoTests.m */,
-				BAA2A60616FE2E1C008CD090 /* Supporting Files */,
-			);
-			path = "Unwind Segueway DemoTests";
-			sourceTree = "<group>";
-		};
-		BAA2A60616FE2E1C008CD090 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				BAA2A60716FE2E1C008CD090 /* Unwind Segueway DemoTests-Info.plist */,
-				BAA2A60816FE2E1C008CD090 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -243,7 +227,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAA2A60A16FE2E1C008CD090 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +255,9 @@
 			files = (
 				BAA2A5E816FE2E1C008CD090 /* main.m in Sources */,
 				BAA2A5EC16FE2E1C008CD090 /* AppDelegate.m in Sources */,
-				BAA2A5F816FE2E1C008CD090 /* ViewController.m in Sources */,
+				BA69A93816FE2FC50069ED97 /* Page1VC.m in Sources */,
+				BA69A93B16FE2FD20069ED97 /* Page2VC.m in Sources */,
+				BA69A93E16FE2FDE0069ED97 /* Page3VC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +265,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAA2A60D16FE2E1C008CD090 /* Unwind_Segueway_DemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,14 +293,6 @@
 				BAA2A5F416FE2E1C008CD090 /* en */,
 			);
 			name = MainStoryboard.storyboard;
-			sourceTree = "<group>";
-		};
-		BAA2A60816FE2E1C008CD090 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BAA2A60916FE2E1C008CD090 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -453,6 +429,7 @@
 				BAA2A61216FE2E1C008CD090 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BAA2A61316FE2E1C008CD090 /* Build configuration list for PBXNativeTarget "Unwind Segueway DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +438,7 @@
 				BAA2A61516FE2E1C008CD090 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

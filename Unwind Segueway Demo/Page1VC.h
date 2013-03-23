@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  Page1VC.h
 //  Unwind Segueway Demo
 //
 //  Created by Henry on 3/23/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface Page1VC : UIViewController
 
 @end
