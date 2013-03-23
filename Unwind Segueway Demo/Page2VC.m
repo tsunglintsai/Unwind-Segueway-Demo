@@ -23,7 +23,6 @@
 }
 
 - (IBAction)goBackPage2:(UIStoryboardSegue *) segue{
-    NSLog(@"Unwind");
     Page3VC *vc = (Page3VC*) segue.sourceViewController;
     NSLog(@"selection is :%i",vc.onOrOff);
 }
